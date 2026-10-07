@@ -1,0 +1,10 @@
+[
+ {
+  "version": "1.0",
+  "date": "2026-10-07",
+  "items": [
+   "Demo release: COA Application, Consignment Test, Email Batch, HR Dept (Staff Master Data, Transfer, Time Adjustment, MC Request), Memo with e-signature approval, Warehouse Dept (Online Shop Delivery – carrier manifest scanning), Management BI (Collection dashboard with sample data).",
+   "English, Bahasa Melayu and 中文; installable on phones; Google Sheet / AppSheet sync; audit trail and document versions."
+  ]
+ }
+]

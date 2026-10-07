@@ -1,0 +1,475 @@
+[
+ {
+  "id": "start",
+  "for": "all",
+  "icon": "🚀",
+  "title": "Bermula",
+  "intro": "Cara log masuk dan menggunakan Company Portal.",
+  "parts": [
+   {
+    "h": "Log masuk",
+    "steps": [
+     "Buka **portal.example.com** dalam pelayar anda.",
+     "Taip **ID Pengguna** anda (Kod Kakitangan anda) dan **kata laluan**, kemudian tekan **Log masuk**.",
+     "Selepas log masuk anda sentiasa bermula di **Umum › Papan Pemuka**. Pautan ke sesuatu halaman (cth. dari emel) masih membuka halaman itu.",
+     "Kali pertama: anda mesti menetapkan kata laluan baharu - sekurang-kurangnya **10 aksara dengan huruf dan nombor**.",
+     "Huruf besar atau kecil pada ID Pengguna tidak penting (LKH002 = lkh002).",
+     "Lupa kata laluan? Minta **Super Admin** menetapkannya semula."
+    ]
+   },
+   {
+    "h": "Bahasa",
+    "steps": [
+     "Butang **🌐** di bahagian atas (sebelah loceng) memilih **English**, **Bahasa Melayu** atau **中文** (Cina). Pilihan anda diingati dalam pelayar ini.",
+     "Hanya teks skrin yang diterjemah - nama, jawatan, outlet, isi memo dan apa yang ditaip kekal seperti asal."
+    ]
+   },
+   {
+    "h": "Menu sisi",
+    "steps": [
+     "Menu di sebelah kiri dikumpul mengikut jabatan: **Umum**, **Jabatan Pembelian**, **Jabatan Pemasaran**, **Jabatan HR**.",
+     "Klik jabatan untuk membuka atau menutupnya. Anda hanya melihat program yang anda ada akses.",
+     "Di telefon, tekan **☰** (atas kiri) untuk memaparkan menu.",
+     "**Manual Pengguna** ini berada di bahagian bawah menu sisi - semua orang boleh membukanya."
+    ]
+   },
+   {
+    "h": "Menu nama anda (atas kanan)",
+    "steps": [
+     "**Tukar kata laluan** - tetapkan kata laluan baharu pada bila-bila masa.",
+     "**✍ Tandatangan saya** - lukis atau muat naik tandatangan anda sekali; ia digunakan apabila anda meluluskan memo.",
+     "**Log keluar** - apabila anda meninggalkan komputer."
+    ]
+   },
+   {
+    "h": "Perlu diketahui",
+    "steps": [
+     "Klik **logo Syarikat** (atas kiri) untuk kembali ke **Umum › Papan Pemuka** dari mana-mana halaman.",
+     "**Pasang sebagai aplikasi** (telefon atau komputer): buka **https://portal.example.com**, kemudian pada Android / Chrome tekan **⋮ › Install app** (atau menu nama › **📲 Install as app**); pada iPhone / iPad tekan **Share › Add to Home Screen**. Anda mendapat ikon **Company Portal** yang dibuka skrin penuh - skrin yang sama seperti laman web.",
+     "**🔔 Loceng** (atas kanan): amaran tamat tempoh COA, notis Emel Berkelompok, peringatan MC dan memo yang menunggu anda - klik untuk melihatnya.",
+     "Anda **dilog keluar secara automatik** selepas beberapa ketika tanpa aktiviti - log masuk semula sahaja.",
+     "Apabila portal dikemas kini, kotak **\"Versi baharu portal telah sedia\"** dipaparkan - tekan **Muat semula**.",
+     "Medan dengan tanda **\\*** merah wajib diisi."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dash",
+  "for": "all",
+  "icon": "🏠",
+  "title": "Papan Pemuka Umum",
+  "intro": "Umum › Papan Pemuka › Papan Pemuka Umum - semua perkara baharu untuk anda dalam satu halaman.",
+  "parts": [
+   {
+    "h": "Apa yang ada di papan pemuka",
+    "steps": [
+     "**Kiraan** di bahagian atas - klik satu untuk pergi ke halamannya.",
+     "**📢 Memo Baharu** - memo terbaharu anda; **BAHARU** sehingga anda membukanya.",
+     "**🆕 Kemas Kini Sistem Baharu** - apa yang berubah dalam setiap versi portal.",
+     "**✅ Tindakan diperlukan** - hanya dipaparkan apabila ada sesuatu untuk anda lakukan: kelulusan, borang atau seksyen yang belum dihantar, kelompok emel yang belum dihantar, langkah MC atau pertukaran. Klik item untuk membukanya.",
+     "**📄 Status Dokumen Saya** - setiap dokumen yang **anda** hantar dan statusnya sekarang. Tapis mengikut modul atau cari; **Tunjuk semua** untuk yang lama."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "memo-read",
+  "for": "all",
+  "icon": "📢",
+  "title": "Memo - membaca memo",
+  "intro": "Umum › Memo › Lihat Memo.",
+  "parts": [
+   {
+    "h": "Baca memo",
+    "steps": [
+     "Memo dipaparkan mengikut tahun. **▦** memaparkan kad, **☰** memaparkan memo satu di bawah yang lain.",
+     "Tanda merah **BAHARU** bermakna anda belum membukanya.",
+     "Klik kad untuk membaca memo; **🖨 Cetak** mencetaknya (memo PDF akan dibuka - cetak dari situ).",
+     "Jika memo dalam lebih daripada satu bahasa, butang di atasnya (**English / Bahasa Melayu / 中文**) menukar bahasa; anda mula-mula melihat bahasa anda sendiri. **✎** menandakan bahasa utama."
+    ]
+   },
+   {
+    "h": "Memo mana yang saya lihat?",
+    "steps": [
+     "HR memilih siapa boleh melihat setiap memo: **Semua**, atau Negeri / Outlet dan / atau Jabatan / Jawatan.",
+     "Outlet dan jawatan anda datang dari **Data Induk Kakitangan** - jika salah, beritahu HR."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "memo-hr",
+  "for": "memoHR",
+  "icon": "✍",
+  "title": "Memo - mencipta dan menerbitkan (HR)",
+  "intro": "Untuk HR: Umum › Memo › Lihat Memo (+) atau Senarai Memo (Baharu).",
+  "parts": [
+   {
+    "h": "Cipta memo",
+    "steps": [
+     "Tekan **+** (Lihat Memo) atau **Baharu** (Senarai Memo), kemudian pilih **Muat naik** (PDF) atau **Cipta Manual** (taip, atau **📄 Import Word**).",
+     "Isi **Tajuk**, **Pegawai Bertanggungjawab** (yang meluluskan), **PDF** atau **Kandungan**.",
+     "**Siapa boleh lihat**: tanda **Semua**, atau tanda Negeri (kemudian hanya outletnya dipaparkan - tanda outlet untuk mengecilkan) dan / atau Jabatan (kemudian hanya jawatannya dipaparkan). Jika anda tanda tempat dan jabatan, kakitangan mesti sepadan kedua-duanya.",
+     "**🌐 Bahasa lain** (pilihan): pilih **Ditulis dalam** (bahasa utama), kemudian taip tajuk dan teks dalam **English** / **Bahasa Melayu** / **中文** pada kotak di bawah. Bar alat berfungsi pada kotak yang anda klik terakhir. Kakitangan membaca memo dalam bahasa mereka sendiri; bahasa yang kosong memaparkan bahasa utama.",
+     "Semak **👁 Pratonton** di bawah borang: rupa memo dan **berapa ramai kakitangan yang menerimanya**.",
+     "Tekan **Simpan** - memo menjadi **Dalam Proses** (menunggu pegawai bertanggungjawab)."
+    ]
+   },
+   {
+    "h": "Terbitkan",
+    "steps": [
+     "Apabila pegawai bertanggungjawab sudah meluluskannya, memo menjadi **Diluluskan** (anda juga melihatnya di bawah Tindakan diperlukan).",
+     "Buka memo, semak dan tekan **📢 Terbitkan** - kakitangan yang dipilih kini boleh melihatnya.",
+     "**Sunting** boleh dibuat semasa Dalam Proses atau Diluluskan (suntingan selepas kelulusan memerlukan kelulusan baharu). **Batal** boleh dibuat pada bila-bila masa."
+    ]
+   },
+   {
+    "h": "Senarai Memo",
+    "steps": [
+     "Semua memo dengan statusnya: Dalam Proses, Diluluskan, Diterbitkan, Dibatalkan.",
+     "Cari dalam kotak di bawah tajuk lajur; menu **⋮** mempunyai Lihat, Sunting, Terbitkan, Cetak dan Batal."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "memo-approve",
+  "for": "memoApprove",
+  "icon": "✔",
+  "title": "Memo - meluluskan (pegawai bertanggungjawab)",
+  "intro": "Umum › Memo › Kelulusan Memo - memo yang menunggu kelulusan anda.",
+  "parts": [
+   {
+    "h": "Luluskan memo",
+    "steps": [
+     "Buka memo dari **Kelulusan Memo** (atau dari **Tindakan diperlukan** di papan pemuka) dan bacanya.",
+     "Tekan **✔ Luluskan** dan pilih tandatangan anda: **tandatangan tersimpan**, **lukis**, atau **muat naik** gambar. Tanda **Simpan tandatangan ini** untuk digunakan lain kali.",
+     "Tandatangan, nama, ID Pengguna dan tarikh anda ditambah ke memo (untuk PDF: bawah kanan halaman terakhir). HR kemudian menerbitkannya.",
+     "**Luluskan dalam AppSheet** (jika syarikat menggunakan aplikasi AppSheet): buka **Memo Approval**, baca memo dan pilih **Decision = Approve**. Sistem meluluskannya pada penyegerakan seterusnya (beberapa minit) dengan **tandatangan tersimpan** anda - jadi simpan satu dahulu (menu nama › ✍ Tandatangan saya). Emel anda dalam sistem mesti akaun Google yang sama yang anda gunakan dalam AppSheet. Lajur **Result** menunjukkan apa yang berlaku."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "coa",
+  "for": "coa",
+  "icon": "📋",
+  "title": "Permohonan COA",
+  "intro": "Jabatan Pembelian › Permohonan COA › Papan Pemuka.",
+  "parts": [
+   {
+    "h": "Cari permohonan",
+    "steps": [
+     "Papan Pemuka menyenaraikan permohonan dengan status, No. COA dan berapa seksyen telah dihantar.",
+     "Guna kotak carian dan penapis status; **Eksport senarai (CSV)** memuat turun senarai."
+    ]
+   },
+   {
+    "h": "Isi permohonan",
+    "steps": [
+     "**+ Permohonan Baharu** memulakan permohonan baharu (jika akaun anda dibenarkan).",
+     "Buka permohonan dan isi seksyen yang anda ada akses (A hingga I). Kerja anda disimpan semasa anda menaip.",
+     "Apabila seksyen lengkap tekan **Hantar** (jika akaun anda dibenarkan menghantar - jika tidak, Pentadbir yang menghantar).",
+     "Seksyen I mempunyai tab **ST** dan **eCOS** (Seksyen B \"ST / eCOS\" menentukan yang dipaparkan) dengan yuran, status, No. COA dan tarikh tamat."
+    ]
+   },
+   {
+    "h": "Tamat tempoh COA",
+    "steps": [
+     "Loceng dan papan pemuka memberi amaran **1 bulan sebelum COA tamat**.",
+     "Amaran berhenti apabila permohonan **Pembaharuan** dengan No. COA itu sebagai No. COA Terdahulu dicipta."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sirim",
+  "for": "sirim",
+  "icon": "🔎",
+  "title": "Ujian Konsainan",
+  "intro": "Jabatan Pembelian › Ujian Konsainan › Papan Pemuka.",
+  "parts": [
+   {
+    "h": "Cara guna",
+    "steps": [
+     "Papan Pemuka menyenaraikan borang ujian konsainan; **+ Permohonan Baharu** memulakan satu (jika akaun anda dibenarkan).",
+     "Buka borang, isi dan **Hantar** apabila lengkap.",
+     "Borang yang belum dihantar dipaparkan di bawah **Tindakan diperlukan** di Papan Pemuka Umum.",
+     "Draf yang dibuat secara tersilap (belum pernah dihantar): **Super Admin** boleh menekan **🗑 Padam** pada borang dan menaip nombor borang untuk membuangnya sepenuhnya (borang, fail dan sejarah). Borang yang sudah dihantar hanya boleh dibatalkan."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "eb",
+  "for": "eb",
+  "icon": "✉",
+  "title": "Emel Berkelompok",
+  "intro": "Jabatan Pemasaran › Emel Berkelompok › Kelompok - satu emel peribadi untuk setiap pelanggan.",
+  "parts": [
+   {
+    "h": "Buat kelompok",
+    "steps": [
+     "Tekan **+ Kelompok Baharu** dan beri tajuk.",
+     "**1. Templat**: tulis subjek dan teks emel. **[Nama Medan]** digantikan dengan nilai setiap pelanggan (klik cip medan untuk menambahnya). **📄 Import templat Word** mengambil fail Word bersama formatnya.",
+     "**2. Pelanggan**: **📥 Import pelanggan** dari Excel, CSV atau Word, atau **+ Tambah pelanggan**. Setiap medan menjadi lajur.",
+     "Semak senarai (cari, Sedia / Belum sedia); **✉ Hantar ujian kepada saya** menunjukkan rupanya; kemudian tekan **📤 Hantar kepada … pelanggan**."
+    ]
+   },
+   {
+    "h": "Semasa menghantar",
+    "steps": [
+     "Emel dihantar satu demi satu. Jika had harian dicapai, kelompok **menunggu** dan bersambung pada hari berikutnya.",
+     "Jika pelayan mel menolak emel, kelompok **berhenti** - anda menerima notis (loceng dan emel). Semak ralat, kemudian tekan **📤 Teruskan penghantaran**; **↻ Hantar semula yang gagal** mencuba semula yang gagal.",
+     "Salinan setiap emel yang dihantar disimpan dalam kelompok."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hr-staff",
+  "for": "hr",
+  "icon": "🪪",
+  "title": "Data Induk Kakitangan",
+  "intro": "Jabatan HR › Data Induk Kakitangan › Senarai Kakitangan.",
+  "parts": [
+   {
+    "h": "Senarai kakitangan",
+    "for": "hrHR",
+    "steps": [
+     "Cari, tapis mengikut status, BR (outlet) dan jawatan; klik tajuk lajur untuk menyusun.",
+     "**+ Tambah kakitangan**, **📥 Import Excel** (BR, Kod Kakitangan, Nama Kakitangan, No. KP, Jawatan, Emel, Tarikh Mula Kerja / Berhenti, Cawangan Liputan) dan **⬇ Eksport Excel**."
+    ]
+   },
+   {
+    "h": "Log masuk untuk kakitangan",
+    "for": "hrHR",
+    "steps": [
+     "**✨ Pilih pekerja baharu** menanda kakitangan yang belum ada log masuk (mengikut penapis).",
+     "**Cipta log masuk** membuat akaun mereka: ID Pengguna = Kod Kakitangan, kata laluan pertama **DAR.0166** - mereka mesti menukarnya pada log masuk pertama."
+    ]
+   },
+   {
+    "h": "Liputan - kakitangan anda (pengurus)",
+    "for": "hr",
+    "steps": [
+     "Jika HR memberi anda **Cawangan Liputan**, anda melihat **Jabatan HR › Data Induk Kakitangan › Senarai Kakitangan** dengan kakitangan cawangan itu sahaja.",
+     "Kotak biru di atas menunjukkan **Liputan anda**.",
+     "Anda boleh **+ Tambah kakitangan** dan **✎ Sunting** kakitangan cawangan anda. Kakitangan tidak boleh dipindahkan keluar dari cawangan anda - minta HR.",
+     "Import, Kemas kini yang dipilih, Buang dan liputan itu sendiri dibuat oleh HR."
+    ]
+   },
+   {
+    "h": "Tetapkan liputan (HR)",
+    "for": "hrHR",
+    "steps": [
+     "Buka kakitangan (cth. Pengurus Operasi atau Pengurus Cawangan / Kawasan) dengan **✎ Sunting**.",
+     "Buka **🗺 Cawangan Liputan - untuk pengurus**, tanda outlet (cari mengikut outlet atau negeri, **Tanda yang dipaparkan**), kemudian **Simpan**.",
+     "Orang itu kemudian melihat dan mengurus kakitangan cawangan tersebut. Buang tanda untuk menariknya semula.",
+     "Import Excel juga menerima lajur **Coverage Branch** (cth. \"KL01, PG02\")."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mc",
+  "for": "mc",
+  "icon": "🩺",
+  "title": "Permohonan MC",
+  "intro": "Jabatan HR › Permohonan MC.",
+  "parts": [
+   {
+    "h": "Hantar MC",
+    "for": "mcSubmit",
+    "steps": [
+     "**✚ Borang Permohonan MC**: isi butiran dan lampirkan gambar MC, kemudian **Hantar** - status **Dihantar**.",
+     "Hantar MC **dalam tempoh 48 jam**: Tarikh Mohon boleh ke belakang paling lama 48 jam dan tidak boleh pada masa hadapan. Untuk MC yang lebih lama, minta HR (HR tidak terhad; HR menetapkan jam dalam **Tetapan › Tetapan HR**).",
+     "Sebelum HR membukanya anda masih boleh mengubahnya: buka permohonan dan tekan **✎ Sunting** (Nombor Cuti, Tarikh Mohon) atau tambah / buang gambar MC. Apabila ia **Dalam Proses** ia tidak boleh diubah lagi.",
+     "Apabila HR membukanya, ia menjadi **Dalam Proses**; kemudian **Diluluskan** atau **Ditolak**.",
+     "Bawa **MC asal** kepada HR dalam tempoh yang ditetapkan (biasanya **30 hari**). Anda diingatkan apabila tinggal 10 hari. Jika tidak sampai kepada HR tepat pada masanya, permohonan **ditolak secara automatik**.",
+     "Apabila HR menerima MC asal, permohonan menjadi **Selesai**.",
+     "Siapa melihat apa (Jabatan HR): anda melihat dokumen yang anda buat, setiap dokumen yang mempunyai **Kod Kakitangan anda sendiri**, dan - jika anda pengurus dengan Cawangan Liputan - dokumen kakitangan di bawah anda dalam struktur. Hanya pembuat (atau HR) boleh mengubah dokumen."
+    ]
+   },
+   {
+    "h": "Untuk pasukan anda (pengurus)",
+    "for": "mcSubmit",
+    "steps": [
+     "Jika HR memberi anda **Cawangan Liputan**, anda juga boleh menghantar MC **kakitangan di bawah anda dalam struktur** (jawatan di bawah jawatan anda, di cawangan anda).",
+     "Dalam **Borang Permohonan MC**, klik **Kod Kakitangan** dan taip kod atau nama - anda yang pertama dalam senarai, kemudian pasukan anda.",
+     "**Senarai Permohonan MC** juga menunjukkan permohonan kakitangan di bawah anda (termasuk yang mereka hantar sendiri) - anda boleh melihatnya; hanya orang yang menghantar boleh mengubahnya. HR meluluskan atau menolaknya seperti biasa."
+    ]
+   },
+   {
+    "h": "Untuk HR",
+    "for": "mcHR",
+    "steps": [
+     "**Senarai Permohonan MC** menunjukkan semua permohonan; buka satu untuk **Luluskan** atau **Tolak**, dan tanda **MC asal diterima** apabila ia sampai.",
+     "Tempoh dan hari peringatan ditetapkan dalam **Tetapan › Tetapan HR**.",
+     "Pilihan **Jenis Dokumen** (MC, OMC, ...) ditetapkan oleh HR dalam **Tetapan › Tetapan HR › Permohonan MC** - kod dan nama; kod memulakan Nombor Dokumen (cth. MC-2610-001)."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tr",
+  "for": "tr",
+  "icon": "🔁",
+  "title": "Borang Pertukaran",
+  "intro": "Jabatan HR › Pertukaran › Borang Pertukaran / Senarai Pertukaran.",
+  "parts": [
+   {
+    "h": "Isi pertukaran (outlet)",
+    "for": "trFill",
+    "steps": [
+     "Pilih **Tetap** (seorang kakitangan) atau **Sementara** (seorang atau lebih kakitangan).",
+     "Taip **ID Kakitangan** - nama, No. KP dan outlet diisi dari Data Induk Kakitangan; waktu bekerja diisi dari outlet \"Ke\".",
+     "Tidak boleh ke belakang: Tarikh Berkuat Kuasa (Tetap) dan Dari Tarikh (Sementara) mesti **hari ini atau kemudian**. HR tidak terhad.",
+     "**Simpan** - status **Draf**. Cetak surat, dapatkan tandatangan, kemudian **muat naik surat bertandatangan** bersama Nama, No. ID (ID Pengguna) dan tarikh penandatangan - status **Dihantar**.",
+     "Sebelum HR membukanya anda masih boleh **✎ Sunting** borang atau memuat naik surat bertandatangan yang baharu. Apabila HR membukanya, ia menjadi **Dalam Proses** dan tidak boleh diubah lagi.",
+     "Siapa melihat apa (Jabatan HR): anda melihat dokumen yang anda buat, setiap dokumen yang mempunyai **Kod Kakitangan anda sendiri**, dan - jika anda pengurus dengan Cawangan Liputan - dokumen kakitangan di bawah anda dalam struktur. Hanya pembuat (atau HR) boleh mengubah dokumen."
+    ]
+   },
+   {
+    "h": "Selepas HR",
+    "for": "trFill",
+    "steps": [
+     "HR mencetak, menandatangani dan memuat naik suratnya - borang anda menjadi **Selesai**.",
+     "Buka borang yang selesai - ia menjadi **Disemak**."
+    ]
+   },
+   {
+    "h": "Untuk HR",
+    "for": "trHR",
+    "steps": [
+     "**Senarai Pertukaran** menunjukkan semua borang. Borang **Dihantar** menunggu HR: buka satu (ia menjadi **Dalam Proses**), cetak surat, tandatangan dan muat naik surat bertandatangan HR bersama Nama, No. ID (ID Pengguna), tarikh dan catatan - status **Selesai**.",
+     "Apabila outlet membuka borang yang selesai, ia menjadi **Disemak**.",
+     "HR boleh **Batal** borang (bukan selepas Disemak)."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ta",
+  "for": "ta",
+  "icon": "⏱",
+  "title": "Pelarasan Masa",
+  "intro": "Jabatan HR › Pelarasan Masa › Borang Pelarasan Masa / Senarai Pelarasan Masa - membetulkan waktu masuk / keluar kakitangan dalam SBClient.",
+  "parts": [
+   {
+    "h": "Isi borang (outlet)",
+    "for": "taFill",
+    "steps": [
+     "**✚ Borang Pelarasan Masa**: satu baris bagi setiap kakitangan dan hari. Taip atau pilih **ID Kakitangan** - Nama Kakitangan dan No. KP diisi sendiri; Cawangan ialah outlet kakitangan (boleh diubah).",
+     "Isi **Tarikh** dan waktu yang betul (Waktu Masuk, Makan Tengah Hari, Makan Malam, Keluar / Masuk Cuti Masa, Waktu Keluar), pilih **Kod Sebab**, taip **Catatan** dan tambah **⬆ Bukti** (gambar atau PDF).",
+     "**＋** menambah baris. **Simpan** menyimpan borang sebagai **Draf**.",
+     "Tanda **Saya bersetuju dan menerima perubahan waktu bekerja seperti yang dinyatakan di atas.** dan tekan **Hantar** - status **Dihantar**. HR hanya melihat borang selepas ia dihantar.",
+     "Sebelum HR membukanya anda masih boleh **✎ Sunting** borang yang Dihantar. Apabila HR membukanya, ia menjadi **Dalam Proses** dan tidak boleh diubah lagi.",
+     "Siapa melihat apa (Jabatan HR): anda melihat dokumen yang anda buat, setiap dokumen yang mempunyai **Kod Kakitangan anda sendiri**, dan - jika anda pengurus dengan Cawangan Liputan - dokumen kakitangan di bawah anda dalam struktur. Hanya pembuat (atau HR) boleh mengubah dokumen."
+    ]
+   },
+   {
+    "h": "Selepas HR",
+    "for": "taFill",
+    "steps": [
+     "HR membukanya (**Dalam Proses**) dan menyemak setiap baris. Jika HR menolak satu baris, borang menjadi **Tidak Lengkap**: tekan **✎ Sunting**, betulkan baris bertanda oren (catatan HR di bawah baris) dan **Hantar** semula.",
+     "Apabila HR sudah menukar waktu dalam SBClient, borang menjadi **Selesai**. Buka borang, semak SBClient dan bagi setiap baris tekan **✔** (akui) atau **⊖** (tolak - taip apa yang salah), kemudian **Hantar**.",
+     "Semua baris diakui = **Diakui** (selesai). Baris yang ditolak menghantar borang kembali kepada HR (**Tidak Lengkap**).",
+     "Tiada jawapan dalam **24 jam** selepas Selesai = **Diakui** secara automatik."
+    ]
+   },
+   {
+    "h": "Untuk HR",
+    "for": "taHR",
+    "steps": [
+     "**Senarai Pelarasan Masa** menunjukkan setiap borang yang dihantar; **●** merah bermakna ia menunggu anda. Membuka borang Dihantar menjadikannya **Dalam Proses**.",
+     "Bagi setiap baris tekan **✔** atau **⊖** (baris yang ditolak memerlukan sebab). **Pulangkan sebagai Tidak Lengkap** menghantar baris yang ditolak kembali kepada outlet.",
+     "Apabila semua baris ditanda, tukar waktu dalam **SBClient**, kemudian tekan **✔ Selesai** - ID Pengguna anda menjadi ID Penyelesai.",
+     "Jika outlet menolak selepas Selesai, borang kembali kepada anda: betulkan SBClient (dan waktu dalam borang jika perlu), tanda baris dan **Selesai** semula.",
+     "**⚙ Kod sebab** menukar senarai Kod Sebab. HR boleh **Batal** borang yang belum Selesai."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "wh",
+  "for": "wh",
+  "icon": "🚚",
+  "title": "Penghantaran Kedai Dalam Talian",
+  "intro": "Jabatan Gudang › Penghantaran Kedai Dalam Talian › Manifest Kurier Baharu / Senarai Manifest Kurier - imbas setiap bungkusan yang diserahkan kepada kurier dan cetak senarai serahan.",
+  "parts": [
+   {
+    "h": "Buat manifest kurier dan imbas",
+    "for": "whEdit",
+    "steps": [
+     "**✚ Manifest Kurier Baharu**: isikan **Tajuk** (untuk rujukan anda) dan **Tajuk Dokumen** (dipaparkan pada cetakan) - Tajuk Dokumen menyalin Tajuk sehingga anda mengubahnya.",
+     "Pilih **Tarikh**, **Saluran** (Shopee, Lazada…) dan **Syarikat Kurier**. Jika kurier dipilih, nombor penjejakan yang bukan milik kurier itu ditolak.",
+     "Tekan **▥ Mula Imbas**. Imbas kod bar setiap bungkusan ke dalam **Nombor Penjejakan** - ia terus ditambah dengan nombornya (terbaru di atas) dan bunyi bip pendek.",
+     "**📷 Kamera** (telefon): imbas dengan kamera telefon dan bukannya pengimbas kod bar - letakkan setiap kod bar di dalam bingkai dan ia ditambah dengan sendirinya; teruskan bungkusan demi bungkusan, kemudian **✕ Tutup**. Hanya berfungsi di **https://portal.example.com** (benarkan kamera apabila telefon bertanya).",
+     "Nombor ditolak dengan mesej merah dan bip berganda rendah jika ia sudah ada dalam manifest ini, sudah ada dalam manifest lain, atau bukan milik kurier yang dipilih.",
+     "**Taip Mati** (asal): hanya pengimbas kod bar boleh memasukkan nombor - menaip atau menampal ditolak. Hidupkan **Taip** untuk menaip nombor yang kod barnya tidak dapat dibaca.",
+     "**Padam Hidup** memaparkan ✕ pada setiap nombor untuk mengeluarkannya. Matikan semula supaya tiada yang terpadam secara tidak sengaja.",
+     "Sudah selesai? Tekan **🔒 Selesai & kunci** (Benarkan Edit mati) - tiada lagi imbasan atau pengeluaran. **🔓 Benarkan Edit** membukanya semula.",
+     "**🖨 Cetak**: senarai serahan dengan jumlah dan ruang tandatangan untuk Syarikat dan kurier."
+    ]
+   },
+   {
+    "h": "Cari, lihat dan tetapan",
+    "for": "wh",
+    "steps": [
+     "**▦ Senarai Manifest Kurier**: setiap manifest dengan tarikh, kurier, saluran, bilangan bungkusan dan status (Sedang diimbas / Dikunci / Dibatalkan). Klik kotak di atas untuk menunjukkan status itu sahaja.",
+     "**Cari nombor penjejakan**: taip seluruh atau sebahagian nombor dan tekan **Cari** - manifest yang mengandunginya dipaparkan.",
+     "**Tetapan Kurier & Saluran** (Tetapan › Tetapan Program › Jabatan Gudang, atau **⚙ Kurier & saluran** pada senarai): tambah / buang syarikat kurier dan saluran. Bagi setiap kurier anda boleh memberi permulaan nombor penjejakannya, cth. DHL Ecommerce – 7027, 7028; tanpa permulaan, semua nombor diterima. Tekan **💾 Simpan**.",
+     "**Batalkan** manifest yang dibuat secara tersilap - nombor penjejakannya kemudian boleh diimbas dalam manifest lain.",
+     "**🗑 Padam** (Super Admin sahaja): memadam manifest dan nombor yang diimbas selama-lamanya - taip nombor manifest untuk mengesahkan. Gunakan **Batal** jika mahu menyimpannya sebagai rekod.",
+     "Setiap manifest juga ada dalam tab Google Sheet **Online Shop Delivery** (satu baris bagi setiap bungkusan)."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bi",
+  "for": "all",
+  "icon": "📊",
+  "title": "Papan Pemuka BI – Kutipan",
+  "intro": "Pengurusan › Papan Pemuka BI › Kutipan – wang yang dikutip hari ini, dikemas kini secara langsung (demo: data contoh).",
+  "parts": [
+   {
+    "h": "Membaca papan pemuka",
+    "steps": [
+     "Empat kotak menunjukkan **Dikutip hari ini**, **Resit hari ini**, **Purata resit** (setiap satu dengan ▲ / ▼ berbanding semalam pada masa yang sama) dan **Bulan setakat ini** berbanding sasaran.",
+     "**Hari ini mengikut jam** melukis jumlah terkumpul sepanjang hari; garisan putus-putus ialah semalam.",
+     "**Mengikut kaedah bayaran** dan **Mengikut cawangan** membahagikan jumlah hari ini; **Resit terkini** menyenaraikan yang terbaru dahulu.",
+     "Pilih **Cawangan** untuk melihat cawangan itu sahaja. **Jeda** menghentikan kemas kini langsung.",
+     "Dalam pemasangan sebenar, angka diambil daripada pangkalan data ERP melalui log masuk baca-sahaja dan dikemas kini setiap 30–60 saat."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "admin",
+  "for": "admin",
+  "icon": "⚙",
+  "title": "Pentadbiran (Pentadbir / Super Admin)",
+  "intro": "Tetapan (bahagian bawah menu sisi).",
+  "parts": [
+   {
+    "h": "Pengguna dan akses",
+    "steps": [
+     "**Pengguna**: tambah akaun, tetapkan jenis akaun, set semula kata laluan, tukar Nama pengguna; lajur **Tandatangan** menyimpan tandatangan setiap orang (lukis atau muat naik).",
+     "**Kawalan Akses**: beri hak setiap orang, atau guna **Jawatan** (set hak untuk ramai orang). Jawatan dikumpul mengikut Jabatan; mengubah jawatan hanya memberi / menarik hak yang anda ubah.",
+     "**Struktur**: buka jawatan dan pilih **Melapor kepada** (cth. Juruwang melapor kepada Pengurus Cawangan). Senarai Jawatan kemudian menunjukkan struktur sebagai pokok (🌳 Struktur); 🏛 Mengikut jabatan mengumpulkannya mengikut jabatan. Jawatan tanpa sesiapa di atas atau di bawah disenaraikan di bawah \"Belum dalam struktur\"."
+    ]
+   },
+   {
+    "h": "Tetapan HR",
+    "steps": [
+     "**Senarai jawatan** dengan **Jabatan** setiap jawatan (\"+ Tambah jabatan baharu...\" dalam senarai pilihan).",
+     "**Senarai jabatan**, **Senarai outlet** (Kod Outlet, Nama, **Negeri**, waktu bekerja) dan tempoh Permohonan MC.",
+     "**⬇ Eksport semua / 📥 Import semua** memindahkan semua Tetapan HR ke pelayan lain dalam satu fail Excel."
+    ]
+   }
+  ]
+ }
+]

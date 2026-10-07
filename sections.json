@@ -1,0 +1,489 @@
+{
+ "A": {
+  "name": "Application Info",
+  "data": [
+   "appType",
+   "purpose",
+   "pic",
+   "requestedDate",
+   "ePermitDateA",
+   "prevCoaNo"
+  ],
+  "checks": [
+   "appType",
+   "purpose",
+   "pic",
+   "requestedDate",
+   "ePermitDateA",
+   "prevCoaNo"
+  ],
+  "remarks": [],
+  "files": [],
+  "upper": [
+   "pic",
+   "prevCoaNo"
+  ],
+  "labels": {
+   "appType": "Application Type",
+   "purpose": "Application Purpose",
+   "pic": "Person in Charge",
+   "requestedDate": "Requested Application Date",
+   "ePermitDateA": "e-Permit Application Date",
+   "prevCoaNo": "Previous COA No. (if renewal)"
+  }
+ },
+ "B": {
+  "name": "Product Info",
+  "data": [
+   "equipmentName",
+   "productCategory",
+   "supplierBrand",
+   "companyBrand",
+   "supplierModel",
+   "companyModel",
+   "colours",
+   "hsCode",
+   "ratedVoltage",
+   "ratedFrequency",
+   "ratedPower",
+   "productClass",
+   "stEcos"
+  ],
+  "checks": [
+   "equipmentName",
+   "productCategory",
+   "supplierBrand",
+   "companyBrand",
+   "supplierModel",
+   "companyModel",
+   "colours",
+   "hsCode",
+   "ratedVoltage",
+   "ratedFrequency",
+   "ratedPower",
+   "productClass",
+   "stEcos"
+  ],
+  "remarks": [],
+  "files": [],
+  "upper": [
+   "equipmentName",
+   "productCategory",
+   "supplierBrand",
+   "companyBrand",
+   "supplierModel",
+   "companyModel",
+   "colours",
+   "hsCode",
+   "ratedVoltage",
+   "ratedFrequency",
+   "ratedPower"
+  ],
+  "labels": {
+   "equipmentName": "Name of Electrical Equipment",
+   "productCategory": "Product Category",
+   "supplierBrand": "Supplier Brand",
+   "companyBrand": "Company Brand",
+   "supplierModel": "Supplier Model",
+   "companyModel": "Company Model",
+   "colours": "Colours",
+   "hsCode": "HS Code",
+   "ratedVoltage": "Rated Voltage",
+   "ratedFrequency": "Rated Frequency",
+   "ratedPower": "Rated Power / Current",
+   "productClass": "Product Class / Type",
+   "stEcos": "ST / eCOS"
+  }
+ },
+ "C": {
+  "name": "Manufacturer Info",
+  "data": [
+   "manufacturerName",
+   "factoryName",
+   "factoryAddress",
+   "mfgCountry"
+  ],
+  "checks": [
+   "manufacturerName",
+   "factoryName",
+   "factoryAddress",
+   "mfgCountry"
+  ],
+  "remarks": [],
+  "files": [],
+  "upper": [
+   "manufacturerName",
+   "factoryName",
+   "factoryAddress",
+   "mfgCountry"
+  ],
+  "labels": {
+   "manufacturerName": "Manufacturer Name",
+   "factoryName": "Factory Name",
+   "factoryAddress": "Factory Address",
+   "mfgCountry": "Country"
+  }
+ },
+ "D": {
+  "name": "Type Test Report",
+  "data": [
+   "testReportNo",
+   "testReportDate",
+   "testLab",
+   "standard",
+   "testModelDesc",
+   "cbRefNo",
+   "cbRefDate"
+  ],
+  "checks": [
+   "testReportNo",
+   "testReportDate",
+   "testLab",
+   "standard",
+   "testModelDesc",
+   "testValidUntil",
+   "cbRefNo",
+   "cbRefDate"
+  ],
+  "remarks": [],
+  "files": [],
+  "upper": [
+   "testReportNo",
+   "testLab",
+   "standard",
+   "testModelDesc",
+   "cbRefNo"
+  ],
+  "labels": {
+   "testReportNo": "Test Report No.",
+   "testReportDate": "Test Report Date",
+   "testLab": "Testing Laboratory",
+   "standard": "Applicable Standard",
+   "testModelDesc": "Test Model Description",
+   "testValidUntil": "Test Report Valid Until",
+   "cbRefNo": "CB Ref Certif No.",
+   "cbRefDate": "CB Ref Certif Date"
+  }
+ },
+ "E": {
+  "name": "Technical Documents",
+  "data": [],
+  "checks": [
+   "docTypeTest",
+   "docCB",
+   "docComponents",
+   "docManual",
+   "docTechSpec",
+   "docCatalogue",
+   "docSample",
+   "docTrademark",
+   "docMarkingPlate",
+   "docAuthLetter",
+   "docOthers"
+  ],
+  "remarks": [],
+  "files": [
+   "docTypeTest",
+   "docCB",
+   "docComponents",
+   "docManual",
+   "docTechSpec",
+   "docCatalogue",
+   "docSample",
+   "docTrademark",
+   "docMarkingPlate",
+   "docAuthLetter",
+   "docOthers"
+  ],
+  "upper": [],
+  "labels": {
+   "docTypeTest": "Type Test Report",
+   "docCB": "CB Test Report",
+   "docComponents": "List of Components",
+   "docManual": "Instruction Manual",
+   "docTechSpec": "Technical Specification",
+   "docCatalogue": "Product Catalogue",
+   "docSample": "Product Sample, if requested",
+   "docTrademark": "Trade Mark",
+   "docMarkingPlate": "Product Marking Plate (Label Rating)",
+   "docAuthLetter": "Letter of Authorisation",
+   "docOthers": "Other Supporting Documents"
+  }
+ },
+ "F": {
+  "name": "Energy Efficiency",
+  "data": [
+   "isEup",
+   "eupCategory",
+   "meps",
+   "coeRequired",
+   "coeNo",
+   "coeExpiry"
+  ],
+  "checks": [
+   "isEup",
+   "eupCategory",
+   "meps",
+   "energyReport",
+   "assessmentLetter",
+   "coeRequired",
+   "coeNo",
+   "coeExpiry"
+  ],
+  "remarks": [],
+  "files": [
+   "energyReport",
+   "assessmentLetter"
+  ],
+  "upper": [
+   "eupCategory",
+   "coeNo"
+  ],
+  "labels": {
+   "isEup": "Is product an Energy-Using Product?",
+   "eupCategory": "Product Category",
+   "meps": "MEPS Applicable",
+   "energyReport": "Energy Performance Test Report",
+   "assessmentLetter": "Assessment Letter",
+   "coeRequired": "COE Required",
+   "coeNo": "COE No. (If available)",
+   "coeExpiry": "COE Expiry Date"
+  }
+ },
+ "G": {
+  "name": "Nameplate / Marking",
+  "data": [
+   "npBrand",
+   "npModel",
+   "npRating",
+   "npMfg",
+   "npOrigin",
+   "npMarking"
+  ],
+  "checks": [
+   "npBrand",
+   "npModel",
+   "npRating",
+   "npMfg",
+   "npOrigin",
+   "npMarking"
+  ],
+  "remarks": [
+   "npBrand",
+   "npModel",
+   "npRating",
+   "npMfg",
+   "npOrigin",
+   "npMarking"
+  ],
+  "files": [],
+  "upper": [],
+  "labels": {
+   "npBrand": "Brand Correct",
+   "npModel": "Model Correct",
+   "npRating": "Electrical Rating Correct",
+   "npMfg": "Manufacturer Information Correct",
+   "npOrigin": "Country of Origin is Correct",
+   "npMarking": "Required Marking is Available"
+  }
+ },
+ "H": {
+  "name": "Import / Consignor",
+  "data": [
+   "supplier",
+   "supplierAddress",
+   "shipCountry",
+   "portLoading",
+   "portArrival",
+   "estShipDate",
+   "estArrivalDate",
+   "invoiceNo",
+   "poNo",
+   "blNo",
+   "containerNo",
+   "customsHs",
+   "k1No"
+  ],
+  "checks": [
+   "supplier",
+   "supplierAddress",
+   "shipCountry",
+   "portLoading",
+   "portArrival",
+   "estShipDate",
+   "estArrivalDate",
+   "invoiceNo",
+   "docPackingList",
+   "poNo",
+   "blNo",
+   "containerNo",
+   "customsHs",
+   "k1No"
+  ],
+  "remarks": [],
+  "files": [
+   "docPackingList",
+   "invoiceNo__att",
+   "poNo__att",
+   "blNo__att",
+   "containerNo__att",
+   "k1No__att"
+  ],
+  "upper": [
+   "supplier",
+   "supplierAddress",
+   "shipCountry",
+   "portLoading",
+   "portArrival",
+   "invoiceNo",
+   "poNo",
+   "blNo",
+   "containerNo",
+   "customsHs",
+   "k1No"
+  ],
+  "labels": {
+   "supplier": "Supplier / Exporter",
+   "supplierAddress": "Supplier Address",
+   "shipCountry": "Country of Shipment",
+   "portLoading": "Port of Loading",
+   "portArrival": "Port of Arrival",
+   "estShipDate": "Estimated Shipment Date",
+   "estArrivalDate": "Estimated Arrival Date",
+   "invoiceNo": "Invoice No.",
+   "invoiceNo__att": "Invoice No. (attachment)",
+   "docPackingList": "Packing List",
+   "poNo": "Purchase Order No.",
+   "poNo__att": "Purchase Order No. (attachment)",
+   "blNo": "Bill of Lading / AWB No.",
+   "blNo__att": "Bill of Lading / AWB No. (attachment)",
+   "containerNo": "Container No.",
+   "containerNo__att": "Container No. (attachment)",
+   "customsHs": "Customs HS Code",
+   "k1No": "Customs Form (K1)",
+   "k1No__att": "Customs Form (K1) (attachment)"
+  }
+ },
+ "I": {
+  "name": "COA Submission",
+  "data": [
+   "ePermitDate",
+   "ePermitNo",
+   "submittedBy",
+   "submittedDate",
+   "stFee",
+   "stFeeDate",
+   "paymentRef",
+   "stStatus",
+   "terFee",
+   "terFeeDate",
+   "coaFee",
+   "coaNo",
+   "coaIssue",
+   "coaExpiry",
+   "ecosEPermitDate",
+   "ecosEPermitNo",
+   "ecosSubmittedBy",
+   "ecosSubmittedDate",
+   "ecosFee",
+   "ecosFeeDate",
+   "ecosPaymentRef",
+   "ecosStatus",
+   "ecosTerFee",
+   "ecosTerFeeDate",
+   "ecosCoaFee",
+   "ecosCoaNo",
+   "ecosCoaIssue",
+   "ecosCoaExpiry"
+  ],
+  "checks": [
+   "ePermitDate",
+   "ePermitNo",
+   "submittedBy",
+   "submittedDate",
+   "stFee",
+   "stFeeDate",
+   "paymentRef",
+   "stStatus",
+   "terFee",
+   "terFeeDate",
+   "coaFee",
+   "coaNo",
+   "coaIssue",
+   "coaExpiry",
+   "ecosEPermitDate",
+   "ecosEPermitNo",
+   "ecosSubmittedBy",
+   "ecosSubmittedDate",
+   "ecosFee",
+   "ecosFeeDate",
+   "ecosPaymentRef",
+   "ecosStatus",
+   "ecosTerFee",
+   "ecosTerFeeDate",
+   "ecosCoaFee",
+   "ecosCoaNo",
+   "ecosCoaIssue",
+   "ecosCoaExpiry"
+  ],
+  "remarks": [],
+  "files": [
+   "stFee__att",
+   "ecosFee__att",
+   "terFeeDate__att",
+   "coaFee__att",
+   "coaNo__att",
+   "ecosTerFeeDate__att",
+   "ecosCoaFee__att",
+   "ecosCoaNo__att"
+  ],
+  "upper": [
+   "ePermitNo",
+   "submittedBy",
+   "paymentRef",
+   "ecosPaymentRef",
+   "coaNo",
+   "ecosEPermitNo",
+   "ecosSubmittedBy",
+   "ecosCoaNo"
+  ],
+  "labels": {
+   "ePermitDate": "e-Permit Application Date",
+   "ePermitNo": "e-Permit Application No.",
+   "submittedBy": "Submitted By",
+   "submittedDate": "Submitted Date",
+   "stFee": "ST Processing Fee",
+   "stFee__att": "ST Processing Fee (attachment)",
+   "stFeeDate": "Payment Processing Fee Date",
+   "paymentRef": "Payment Reference",
+   "stStatus": "ST Status",
+   "terFee": "Technical Evaluation Fee",
+   "terFeeDate": "Payment TER Fee Date",
+   "terFeeDate__att": "Payment TER Fee Date (attachment)",
+   "coaFee": "COA Fee",
+   "coaFee__att": "COA Fee (attachment)",
+   "coaNo": "COA No.",
+   "coaNo__att": "COA No. (attachment)",
+   "coaIssue": "COA Issue Date",
+   "coaExpiry": "COA Expiry Date",
+   "ecosEPermitDate": "eCOS e-Permit Application Date",
+   "ecosEPermitNo": "eCOS e-Permit Application No.",
+   "ecosSubmittedBy": "eCOS Submitted By",
+   "ecosSubmittedDate": "eCOS Submitted Date",
+   "ecosFee": "eCOS Processing Fee",
+   "ecosFee__att": "eCOS Processing Fee (attachment)",
+   "ecosFeeDate": "eCOS Payment Processing Fee Date",
+   "ecosPaymentRef": "eCOS Payment Reference",
+   "ecosStatus": "eCOS Status",
+   "ecosTerFee": "eCOS Technical Evaluation Fee",
+   "ecosTerFeeDate": "eCOS Payment TER Fee Date",
+   "ecosTerFeeDate__att": "eCOS Payment TER Fee Date (attachment)",
+   "ecosCoaFee": "eCOS COA Fee",
+   "ecosCoaFee__att": "eCOS COA Fee (attachment)",
+   "ecosCoaNo": "eCOS COA No.",
+   "ecosCoaNo__att": "eCOS COA No. (attachment)",
+   "ecosCoaIssue": "eCOS COA Issue Date",
+   "ecosCoaExpiry": "eCOS COA Expiry Date"
+  }
+ }
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Company Portal – Company Name</title>
+  <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48 64x64" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <!-- installable as an app (Add to Home screen) -->
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#2e348a" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Company Portal" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Login / first-time setup -->
+  <div id="auth" class="auth" hidden></div>
+
+  <!-- Main app -->
+  <div id="shell" hidden>
+    <header class="topbar no-print">
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+      <a class="brand" href="#/general" title="General Dashboard">
+        <img class="logo" src="logo.png" alt="Company" />
+        <div>
+          <div class="brand-name">COMPANY NAME SDN BHD</div>
+          <div class="brand-sub">Company Portal</div>
+        </div>
+      </a>
+      <div class="spacer"></div>
+      <button class="lang-btn no-tr" id="langTop" title="Language / Bahasa / 语言">🌐 <span id="langTopTxt">EN ▾</span></button>
+      <button class="bell" id="bellBtn" title="COA expiry alerts" hidden>🔔<span class="bell-count" id="bellCount"></span></button>
+      <div class="user-menu">
+        <button class="user-btn" id="userBtn">
+          <span class="avatar" id="avatar"></span>
+          <span class="user-text"><strong id="userName"></strong><small id="userRole"></small></span>
+          <span class="chev">▾</span>
+        </button>
+        <div class="dropdown" id="userDrop" hidden>
+          <button data-action="password">Change password</button>
+          <button data-action="signature">✍ My signature</button>
+          <button data-action="install" id="installBtn" hidden>📲 Install as app</button>
+          <button data-action="lang" id="langBtn" class="no-tr">🌐 Language / Bahasa / 语言</button>
+          <button data-action="logout">Sign out</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="shell-body">
+      <aside class="sidebar no-print" id="sidebar">
+        <div class="side-label">Departments</div>
+
+        <!-- General: for every staff -->
+        <div class="dept" data-dept="general" id="deptGeneral">
+          <button type="button" class="dept-head" data-dept-toggle>
+            <span class="dept-icon">🌐</span>
+            <span class="dept-name">General</span>
+            <span class="chev">▾</span>
+          </button>
+          <div class="dept-body">
+            <div class="program open" data-program="gdash" id="progGDash">
+              <button type="button" class="prog-head" data-prog-toggle>
+                <span class="prog-icon">🏠</span>
+                <span class="prog-name">Dashboard</span>
+                <span class="chev">▾</span>
+              </button>
+              <div class="prog-body">
+                <a href="#/general" class="sub-link" data-nav="general">▦ General Dashboard <span class="memo-new-n" id="gdNewN" hidden>NEW</span></a>
+              </div>
+            </div>
+            <div class="program open" data-program="memo" id="progMemo">
+              <button type="button" class="prog-head" data-prog-toggle>
+                <span class="prog-icon">📢</span>
+                <span class="prog-name">Memo</span>
+                <span class="chev">▾</span>
+              </button>
+              <div class="prog-body">
+                <a href="#/memo" class="sub-link" data-nav="memo">📰 View Memo <span class="memo-new-n" id="memoNewN" hidden></span></a>
+                <a href="#/memo/list" class="sub-link" data-nav="memo/list" id="navMemoList" hidden>▦ Memo Listings</a>
+                <a href="#/memo/approval" class="sub-link" data-nav="memo/approval" id="navMemoAppr" hidden>✔ Memo Approval <span class="memo-new-n" id="memoApprN" hidden></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of General -->
+
+        <!-- Department: Purchase - add another department as another <div class="dept"> block -->
+        <div class="dept" data-dept="purchase" id="deptPurchase">
+          <button type="button" class="dept-head" data-dept-toggle>
+            <span class="dept-icon">🏢</span>
+            <span class="dept-name">Purchase Dept</span>
+            <span class="chev">▾</span>
+          </button>
+          <div class="dept-body">
+
+        <!-- Program: COA Application -->
+        <div class="program open" data-program="coa" id="progCoa">
+          <button type="button" class="prog-head" data-prog-toggle>
+            <span class="prog-icon">📋</span>
+            <span class="prog-name">COA Application</span>
+            <span class="chev">▾</span>
+          </button>
+          <div class="prog-body">
+            <a href="#/" class="sub-link" data-nav="dash">▦ Dashboard</a>
+            <a href="#/audit" class="sub-link" data-nav="audit" id="navAudit" hidden>🕘 Audit Trail</a>
+          </div>
+        </div>
+
+        <!-- Program: Consignment Test Application (SIRIM inspection) -->
+        <div class="program open" data-program="sirim" id="progSirim" hidden>
+          <button type="button" class="prog-head" data-prog-toggle>
+            <span class="prog-icon">🔎</span>
+            <span class="prog-name">Consignment Test</span>
+            <span class="chev">▾</span>
+          </button>
+          <div class="prog-body">
+            <a href="#/sirim" class="sub-link" data-nav="sirim">▦ Dashboard</a>
+            <a href="#/sirim-audit" class="sub-link" data-nav="sirim-audit" id="navSirimAudit" hidden>🕘 Audit Trail</a>
+          </div>
+        </div>
+
+        <!-- Add future Purchase programs here as another <div class="program" data-program="..."> block -->
+          </div>
+        </div>
+        <!-- end of Purchase Dept -->
+
+        <!-- Department: Marketing -->
+        <div class="dept" data-dept="marketing" id="deptMarketing" hidden>
+          <button type="button" class="dept-head" data-dept-toggle>
+            <span class="dept-icon">📣</span>
+            <span class="dept-name">Marketing Dept</span>
+            <span class="chev">▾</span>
+          </button>
+          <div class="dept-body">
+            <div class="program open" data-program="eb">
+              <button type="button" class="prog-head" data-prog-toggle>
+                <span class="prog-icon">✉️</span>
+                <span class="prog-name">Email Batch</span>
+                <span class="chev">▾</span>
+              </button>
+              <div class="prog-body">
+                <a href="#/eb" class="sub-link" data-nav="eb">▦ Batches</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of Marketing Dept -->
+
+        <!-- Department: HR -->
+        <div class="dept" data-dept="hr" id="deptHR" hidden>
+          <button type="button" class="dept-head" data-dept-toggle>
+            <span class="dept-icon">👥</span>
+            <span class="dept-name">HR Dept</span>
+            <span class="chev">▾</span>
+          </button>
+          <div class="dept-body">
+            <div class="program open" data-program="hr" id="progHrStaff">
+              <button type="button" class="prog-head" data-prog-toggle>
+                <span class="prog-icon">🪪</span>
+                <span class="prog-name">Staff Master Data</span>
+                <span class="chev">▾</span>
+              </button>
+              <div class="prog-body">
+                <a href="#/hr" class="sub-link" data-nav="hr">▦ Staff List</a>
+              </div>
+            </div>
+            <div class="program open" data-program="tr" id="progTr" hidden>
+              <button type="button" class="prog-head" data-prog-toggle>
+                <span class="prog-icon">🔁</span>
+                <span class="prog-name">Transfer</span>
+                <span class="chev">▾</span>
+              </button>
+              <div class="prog-body">
+                <a href="#/tr/new" class="sub-link" data-nav="tr/new" id="navTrNew">✚ Transfer Form</a>
+                <a href="#/tr" class="sub-link" data-nav="tr">▦ Transfer List</a>
+              </div>
+            </div>
+            <div class="program open" data-program="ta" id="progTa" hidden>
+              <button type="button" class="prog-head" data-prog-toggle>
+                <span class="prog-icon">⏱</span>
+                <span class="prog-name">Time Adjustment</span>
+                <span class="chev">▾</span>
+              </button>
+              <div class="prog-body">
+                <a href="#/ta/new" class="sub-link" data-nav="ta/new" id="navTaNew">✚ Time Adjustment Form</a>
+                <a href="#/ta" class="sub-link" data-nav="ta">▦ Time Adjustment Listing</a>
+              </div>
+            </div>
+            <div class="program open" data-program="mc" id="progMc" hidden>
+              <button type="button" class="prog-head" data-prog-toggle>
+                <span class="prog-icon">🩺</span>
+                <span class="prog-name">MC Request</span>
+                <span class="chev">▾</span>
+              </button>
+              <div class="prog-body">
+                <a href="#/mc/new" class="sub-link" data-nav="mc/new" id="navMcNew">✚ MC Request Form</a>
+                <a href="#/mc" class="sub-link" data-nav="mc">▦ MC Request List</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of HR Dept -->
+
+        <!-- Department: Warehouse -->
+        <div class="dept" data-dept="warehouse" id="deptWH" hidden>
+          <button type="button" class="dept-head" data-dept-toggle>
+            <span class="dept-icon">📦</span>
+            <span class="dept-name">Warehouse Dept</span>
+            <span class="chev">▾</span>
+          </button>
+          <div class="dept-body">
+            <div class="program open" data-program="wh" id="progWh">
+              <button type="button" class="prog-head" data-prog-toggle>
+                <span class="prog-icon">🚚</span>
+                <span class="prog-name">Online Shop Delivery</span>
+                <span class="chev">▾</span>
+              </button>
+              <div class="prog-body">
+                <a href="#/wh/new" class="sub-link" data-nav="wh/new" id="navWhNew">✚ New Carrier Manifest</a>
+                <a href="#/wh" class="sub-link" data-nav="wh">▦ Carrier Manifest List</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of Warehouse Dept -->
+
+        <!-- Department: Management - BI dashboards (demo: sample data) -->
+        <div class="dept" data-dept="management" id="deptBI">
+          <button type="button" class="dept-head" data-dept-toggle>
+            <span class="dept-icon">📈</span>
+            <span class="dept-name">Management</span>
+            <span class="chev">▾</span>
+          </button>
+          <div class="dept-body">
+            <div class="program open" data-program="bi" id="progBi">
+              <button type="button" class="prog-head" data-prog-toggle>
+                <span class="prog-icon">📊</span>
+                <span class="prog-name">BI Dashboard</span>
+                <span class="chev">▾</span>
+              </button>
+              <div class="prog-body">
+                <a href="#/bi/collection" class="sub-link" data-nav="bi/collection">💰 Collection <span class="memo-new-n">LIVE</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of Management -->
+
+        <div class="side-admin" id="adminBox">
+          <a href="#/manual" class="sub-link" data-nav="manual" id="navManual">📘 User Manual</a>
+          <div class="side-label" id="adminLabel">Administration</div>
+          <a href="#/settings" class="sub-link" data-nav="settings" id="navSettings">⚙ Settings</a>
+        </div>
+      </aside>
+      <div class="backdrop no-print" id="backdrop"></div>
+      <main id="app"></main>
+    </div>
+  </div>
+
+  <dialog id="dialog"></dialog>
+  <div id="toast" class="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

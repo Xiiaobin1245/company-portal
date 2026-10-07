@@ -1,0 +1,475 @@
+[
+ {
+  "id": "start",
+  "icon": "🚀",
+  "title": "Getting started",
+  "for": "all",
+  "intro": "How to sign in and find your way around Company Portal.",
+  "parts": [
+   {
+    "h": "Sign in",
+    "steps": [
+     "Open **portal.example.com** in your browser.",
+     "Type your **User ID** (your Staff Code) and **password**, then press **Sign in**.",
+     "After signing in you always start on **General › Dashboard**. A link to a page (e.g. from an email) still opens that page.",
+     "First time: you must set a new password - at least **10 characters with letters and numbers**.",
+     "Capital or small letters in the User ID do not matter (LKH002 = lkh002).",
+     "Forgot your password? Ask the **Super Admin** to reset it."
+    ]
+   },
+   {
+    "h": "Language",
+    "steps": [
+     "The **🌐** button at the top (next to the bell) chooses **English**, **Bahasa Melayu** or **中文** (Chinese). Your choice is remembered in this browser.",
+     "Only the screen text is translated - names, positions, outlets, memo text and anything typed stay as they are."
+    ]
+   },
+   {
+    "h": "The side menu",
+    "steps": [
+     "The menu on the left is grouped by department: **General**, **Purchase Dept**, **Marketing Dept**, **HR Dept**.",
+     "Click a department to open or close it. You only see the programs you have access to.",
+     "On a phone, tap **☰** (top left) to show the menu.",
+     "This **User Manual** is at the bottom of the side menu - everyone can open it."
+    ]
+   },
+   {
+    "h": "Your name menu (top right)",
+    "steps": [
+     "**Change password** - set a new password any time.",
+     "**✍ My signature** - draw or upload your signature once; it is used when you approve a memo.",
+     "**Sign out** - when you leave the computer."
+    ]
+   },
+   {
+    "h": "Good to know",
+    "steps": [
+     "Click the **Company logo** (top left) to go back to **General › Dashboard** from any page.",
+     "**Install as an app** (phone or computer): open **https://portal.example.com**, then on Android / Chrome press **⋮ › Install app** (or your name menu › **📲 Install as app**); on iPhone / iPad press **Share › Add to Home Screen**. You get a **Company Portal** icon that opens full screen - same screens as the website.",
+     "**🔔 Bell** (top right): COA expiry alerts, Email Batch notices, MC reminders and memos waiting for you - click it to see them.",
+     "You are **signed out automatically** after a while without activity - just sign in again.",
+     "When the portal is updated, a box shows **\"A new version of the portal is ready\"** - press **Reload**.",
+     "Fields with a red **\\*** must be filled in."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dash",
+  "icon": "🏠",
+  "title": "General Dashboard",
+  "for": "all",
+  "intro": "General › Dashboard › General Dashboard - everything new for you on one page.",
+  "parts": [
+   {
+    "h": "What is on the dashboard",
+    "steps": [
+     "**Counters** at the top - click one to go to its page.",
+     "**📢 New Memo** - your newest memos; **NEW** until you open them.",
+     "**🆕 New System Update** - what changed in each version of the portal.",
+     "**✅ Action needed** - only shows when you have something to do: approvals, forms or sections still to submit, batches not sent, MC or transfer steps. Click an item to open it.",
+     "**📄 My Document Status** - every document **you** submitted and where it is now. Filter by module or search; **Show all** for older ones."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "memo-read",
+  "icon": "📢",
+  "title": "Memo - reading memos",
+  "for": "all",
+  "intro": "General › Memo › View Memo.",
+  "parts": [
+   {
+    "h": "Read a memo",
+    "steps": [
+     "Memos are shown by year. **▦** shows cards, **☰** shows the memos one below the other.",
+     "A red **NEW** means you have not opened it yet.",
+     "Click a card to read the memo; **🖨 Print** prints it (a PDF memo opens - print it from there).",
+     "If the memo is in more than one language, the buttons above it (**English / Bahasa Melayu / 中文**) switch the language; you first see your own language. **✎** marks the main language."
+    ]
+   },
+   {
+    "h": "Which memos do I see?",
+    "steps": [
+     "HR chooses who can view each memo: **All**, or a State / Outlet and / or Department / Position.",
+     "Your outlet and position come from **Staff Master Data** - if they are wrong, tell HR."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "memo-hr",
+  "icon": "✍",
+  "title": "Memo - creating and posting (HR)",
+  "for": "memoHR",
+  "intro": "For HR: General › Memo › View Memo (+) or Memo Listings (New).",
+  "parts": [
+   {
+    "h": "Create a memo",
+    "steps": [
+     "Press **+** (View Memo) or **New** (Memo Listings), then choose **Upload** (a PDF) or **Manual Create** (type it in, or **📄 Import Word**).",
+     "Fill in **Title**, **Person in Charge** (who approves), the **PDF** or the **Content**.",
+     "**Who can view**: tick **All**, or tick States (then only their outlets show - tick outlets to narrow) and / or Departments (then only their positions show). If you tick both a place and a department, staff must match both.",
+     "**🌐 Other languages** (optional): choose **Written in** (the main language), then type the title and text in **Bahasa Melayu** and **中文** in the boxes below. The toolbar works on the box you clicked last. Staff read the memo in their own language; an empty language shows the main one.",
+     "Check the **👁 Preview** under the form: the memo as it will look and **how many staff it reaches**.",
+     "Press **Save** - the memo is **Processing** (waiting for the person in charge)."
+    ]
+   },
+   {
+    "h": "Post it",
+    "steps": [
+     "When the person in charge has approved it, the memo is **Approved** (you also see it under Action needed).",
+     "Open the memo, check it and press **📢 Post** - the chosen staff can now see it.",
+     "**Edit** is possible while Processing or Approved (an edit after approval needs a new approval). **Cancel** is possible any time."
+    ]
+   },
+   {
+    "h": "Memo Listings",
+    "steps": [
+     "Every memo with its status: Processing, Approved, Posted, Cancelled.",
+     "Search in the boxes under the headings; the **⋮** menu has View, Edit, Post, Print and Cancel."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "memo-approve",
+  "icon": "✔",
+  "title": "Memo - approving (person in charge)",
+  "for": "memoApprove",
+  "intro": "General › Memo › Memo Approval - memos waiting for your approval.",
+  "parts": [
+   {
+    "h": "Approve a memo",
+    "steps": [
+     "Open the memo from **Memo Approval** (or from **Action needed** on the dashboard) and read it.",
+     "Press **✔ Approve** and choose your signature: **saved signature**, **draw** it, or **upload** a picture. Tick **Save this signature** to use it next time.",
+     "Your signature, name, User ID and date are added to the memo (for a PDF: bottom right of the last page). HR then posts it.",
+     "**Approve in AppSheet** (if your company uses the AppSheet app): open **Memo Approval**, read the memo and choose **Decision = Approve**. The system approves it at the next sync (a few minutes) with your **saved signature** - so save one first (name menu › ✍ My signature). Your email in the system must be the same Google account you use in AppSheet. The **Result** column shows what happened."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "coa",
+  "icon": "📋",
+  "title": "COA Application",
+  "for": "coa",
+  "intro": "Purchase Dept › COA Application › Dashboard.",
+  "parts": [
+   {
+    "h": "Find an application",
+    "steps": [
+     "The Dashboard lists the applications with their status, COA No. and how many sections are submitted.",
+     "Use the search box and the status filter; **Export list (CSV)** downloads the list."
+    ]
+   },
+   {
+    "h": "Fill in an application",
+    "steps": [
+     "**+ New Application** starts a new one (if your account may create).",
+     "Open an application and fill in the sections you have access to (A to I). Your work is saved as you go.",
+     "When a section is complete press **Submit** (if your account may submit - otherwise an Admin submits).",
+     "Section I has **ST** and **eCOS** tabs (Section B \"ST / eCOS\" decides which are shown) with fees, status, COA No. and expiry."
+    ]
+   },
+   {
+    "h": "COA expiry",
+    "steps": [
+     "The bell and the dashboard warn you **1 month before a COA expires**.",
+     "The warning stops when a **Renewal** application with that COA No. as Previous COA No. is created."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sirim",
+  "icon": "🔎",
+  "title": "Consignment Test",
+  "for": "sirim",
+  "intro": "Purchase Dept › Consignment Test › Dashboard.",
+  "parts": [
+   {
+    "h": "Use it",
+    "steps": [
+     "The Dashboard lists the consignment test forms; **+ New Application** starts one (if your account may create).",
+     "Open a form, fill it in and **Submit** when complete.",
+     "Forms still to submit show under **Action needed** on the General Dashboard.",
+     "A Draft made by mistake (never submitted): the **Super Admin** can press **🗑 Delete** on the form and type the form number to remove it completely (form, files and history). A submitted form can only be cancelled."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "eb",
+  "icon": "✉",
+  "title": "Email Batch",
+  "for": "eb",
+  "intro": "Marketing Dept › Email Batch › Batches - one personal email to each customer.",
+  "parts": [
+   {
+    "h": "Make a batch",
+    "steps": [
+     "Press **+ New Batch** and give it a title.",
+     "**1. Template**: write the subject and email text. **[Field Name]** is replaced by each customer's own value (click a field chip to add it). **📄 Import Word template** takes a Word file with its formatting.",
+     "**2. Customers**: **📥 Import customers** from Excel, CSV or Word, or **+ Add customer**. Each field becomes a column.",
+     "Check the list (search, Ready / Not ready); **✉ Send test to me** shows how it looks; then press **📤 Send to … customers**."
+    ]
+   },
+   {
+    "h": "While sending",
+    "steps": [
+     "Emails go out one by one. If the daily limit is reached, the batch **waits** and continues the next day.",
+     "If the mail server refuses emails the batch **stops** - you get a notice (bell and email). Check the error, then press **📤 Continue sending**; **↻ Send the failed ones again** retries the failed ones.",
+     "A copy of every email sent is kept in the batch."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hr-staff",
+  "icon": "🪪",
+  "title": "Staff Master Data",
+  "for": "hr",
+  "intro": "HR Dept › Staff Master Data › Staff List.",
+  "parts": [
+   {
+    "h": "Staff list",
+    "steps": [
+     "Search, filter by status, BR (outlet) and position; click a heading to sort.",
+     "**+ Add staff**, **📥 Import Excel** (BR, Staff Code, Staff Name, IC No., Position, Email, Joined / Resigned Date) and **⬇ Export Excel**."
+    ],
+    "for": "hrHR"
+   },
+   {
+    "h": "Logins for staff",
+    "steps": [
+     "**✨ Select newcomers** ticks the staff without a login (it follows the filters).",
+     "**Create logins** makes their accounts: User ID = Staff Code, first password **DAR.0166** - they must change it at the first sign-in."
+    ],
+    "for": "hrHR"
+   },
+   {
+    "h": "Coverage - your staff (managers)",
+    "for": "hr",
+    "steps": [
+     "If HR gave you a **Coverage Branch**, you see **HR Dept › Staff Master Data › Staff List** with only the staff of those branches.",
+     "The blue box at the top shows **Your coverage**.",
+     "You can **+ Add staff** and **✎ Edit** staff of your branches. A staff cannot be moved out of your branches - ask HR.",
+     "Import, Update selected, Remove and the coverage itself are done by HR."
+    ]
+   },
+   {
+    "h": "Set coverage (HR)",
+    "for": "hrHR",
+    "steps": [
+     "Open the staff (e.g. an Operation Manager or Branch / Area Manager) with **✎ Edit**.",
+     "Open **🗺 Coverage Branch - for managers**, tick the outlets (search by outlet or state, **Tick shown**), then **Save**.",
+     "The person then sees and manages the staff of those branches. Clear the ticks to take it away.",
+     "Excel import also takes the column **Coverage Branch** (e.g. \"KL01, PG02\")."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mc",
+  "icon": "🩺",
+  "title": "MC Request",
+  "for": "mc",
+  "intro": "HR Dept › MC Request.",
+  "parts": [
+   {
+    "h": "Submit an MC",
+    "steps": [
+     "**✚ MC Request Form**: fill in the details and attach the MC picture, then **Submit** - status **Submitted**.",
+     "Submit the MC **within 48 hours**: Date Apply can be backdated at most 48 hours and not set in the future. For an older MC, ask HR (HR is not limited; HR sets the hours in **Settings › HR Setting**).",
+     "Until HR opens it you can still change it: open the request and press **✎ Edit** (Leave Number, Date Apply) or add / remove MC pictures. Once it is **Processing** it can no longer be changed.",
+     "When HR opens it, it becomes **Processing** (locked); then **Approved** or **Rejected**.",
+     "Bring the **original MC** to HR within the lead time (normally **30 days**). You are reminded when 10 days are left. If it does not reach HR in time, the request is **rejected automatically**.",
+     "When HR receives the original, the request is **Completed**.",
+     "Who sees what (HR Dept): you see the documents you made, every document with **your own Staff Code** on it, and - if you are a manager with a Coverage Branch - the documents of the staff under you in the structure. Only the maker (or HR) can change a document."
+    ],
+    "for": "mcSubmit"
+   },
+   {
+    "h": "For your team (managers)",
+    "for": "mcSubmit",
+    "steps": [
+     "If HR gave you a **Coverage Branch**, you can also submit the MC of **the staff under you in the structure** (positions below yours, in your branches).",
+     "On the **MC Request Form**, click **Staff Code** and type a code or name - you are first in the list, then your team.",
+     "The **MC Request List** also shows the requests of the staff under you (also the ones they submitted themselves) - you can view them; only the person who submitted a request can change it. HR approves or rejects them as usual."
+    ]
+   },
+   {
+    "h": "For HR",
+    "steps": [
+     "**MC Request List** shows every request; open one to **Approve** or **Reject**, and tick **original MC received** when it arrives.",
+     "Lead time and reminder days are set in **Settings › HR Setting**.",
+     "**Document Type** choices (MC, OMC, ...) are set by HR in **Settings › HR Setting › MC Request** - code and name; the code starts the Document Number (e.g. MC-2610-001)."
+    ],
+    "for": "mcHR"
+   }
+  ]
+ },
+ {
+  "id": "tr",
+  "icon": "🔁",
+  "title": "Transfer Form",
+  "for": "tr",
+  "intro": "HR Dept › Transfer › Transfer Form / Transfer List.",
+  "parts": [
+   {
+    "h": "Fill in a transfer (outlet)",
+    "for": "trFill",
+    "steps": [
+     "Choose **Permanent** (one staff) or **Temporary** (one or more staff).",
+     "Type the **Staff ID** - name, IC No. and outlet fill in from Staff Master Data; the working hours fill in from the \"To\" outlet.",
+     "No backdating: the Effective From Date (Permanent) and From Date (Temporary) must be **today or later**. HR is not limited.",
+     "**Save** - status **Drafted**. Print the letter, get it signed, then **upload the signed letter** with the signers' Name, ID No. (User ID) and date - status **Submitted**.",
+     "Until HR opens it you can still **✎ Edit** the form or upload a new signed letter. When HR opens it, it becomes **Processing** and can no longer be changed.",
+     "Who sees what (HR Dept): you see the documents you made, every document with **your own Staff Code** on it, and - if you are a manager with a Coverage Branch - the documents of the staff under you in the structure. Only the maker (or HR) can change a document."
+    ]
+   },
+   {
+    "h": "After HR",
+    "for": "trFill",
+    "steps": [
+     "HR prints, signs and uploads its letter - your form becomes **Completed**.",
+     "Open the completed form - it becomes **Checked**."
+    ]
+   },
+   {
+    "h": "For HR",
+    "for": "trHR",
+    "steps": [
+     "**Transfer List** shows every form. Forms in **Submitted** wait for HR: open one (it becomes **Processing**), print the letter, sign it and upload HR's signed letter with Name, ID No. (User ID), date and remarks - status **Completed**.",
+     "When the outlet opens the completed form it becomes **Checked**.",
+     "HR can **Cancel** a form (not after Checked)."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ta",
+  "for": "ta",
+  "icon": "⏱",
+  "title": "Time Adjustment",
+  "intro": "HR Dept › Time Adjustment › Time Adjustment Form / Time Adjustment Listing - correct the clock-in / out times of staff in SBClient.",
+  "parts": [
+   {
+    "h": "Fill in a form (outlet)",
+    "for": "taFill",
+    "steps": [
+     "**✚ Time Adjustment Form**: one line per staff and day. Type or pick the **Staff ID** - Staff Name and IC fill in by themselves; the Branch is the staff's outlet (can be changed).",
+     "Fill in the **Date** and the correct times (Time In, Lunch In / Out, Dinner In / Out, Time Off Out / In, Time Out), choose a **Reason Code**, type a **Remark** and add **⬆ Evidence** (photo or PDF).",
+     "**＋** adds a line. **Save** keeps the form as **Draft**.",
+     "Tick **I agree and accept the change of working hours as stated above.** and press **Submit** - status **Submitted**. HR only sees a form once it is submitted.",
+     "Until HR opens it you can still **✎ Edit** a Submitted form. When HR opens it, it becomes **Processing** and can no longer be changed.",
+     "Who sees what (HR Dept): you see the documents you made, every document with **your own Staff Code** on it, and - if you are a manager with a Coverage Branch - the documents of the staff under you in the structure. Only the maker (or HR) can change a document."
+    ]
+   },
+   {
+    "h": "After HR",
+    "for": "taFill",
+    "steps": [
+     "HR opens it (**Processing**) and checks every line. If HR declines a line the form becomes **Incomplete**: press **✎ Edit**, correct the lines marked in orange (HR's remark is under the line) and **Submit** again.",
+     "When HR has changed the times in SBClient the form is **Completed**. Open it, check SBClient and for each line press **✔** (acknowledge) or **⊖** (decline - type what is wrong), then **Submit**.",
+     "Every line acknowledged = **Acknowledged** (finished). A declined line sends the form back to HR (**Incomplete**).",
+     "No answer within **24 hours** after Completed = **Acknowledged** automatically."
+    ]
+   },
+   {
+    "h": "For HR",
+    "for": "taHR",
+    "steps": [
+     "**Time Adjustment Listing** shows every submitted form; a red **●** means it waits for you. Opening a Submitted form makes it **Processing**.",
+     "For each line press **✔** or **⊖** (a declined line needs a reason). **Return as Incomplete** sends the declined lines back to the outlet.",
+     "When every line is ticked, change the times in **SBClient**, then press **✔ Complete** - your User ID becomes the Completed ID.",
+     "If the outlet declines after Completed, the form comes back to you: correct SBClient (and the times on the form if needed), tick the lines and **Complete** again.",
+     "**⚙ Reason codes** changes the Reason Code list. HR can **Cancel** a form that is not Completed yet."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "wh",
+  "for": "wh",
+  "icon": "🚚",
+  "title": "Online Shop Delivery",
+  "intro": "Warehouse Dept › Online Shop Delivery › New Carrier Manifest / Carrier Manifest List - scan every parcel handed over to a courier and print the hand-over list.",
+  "parts": [
+   {
+    "h": "Make a carrier manifest and scan",
+    "for": "whEdit",
+    "steps": [
+     "**✚ New Carrier Manifest**: fill in the **Title** (for your reference) and the **Document Title** (shown on the printout) - the Document Title copies the Title until you change it.",
+     "Choose the **Date**, the **Channel** (Shopee, Lazada…) and the **Courier Company**. With a courier chosen, a tracking number that does not belong to that courier is refused.",
+     "Press **▥ Start Scan**. Scan each parcel's barcode into **Tracking Number** - it is added at once with its number (newest on top) and a short beep.",
+     "**📷 Camera** (phones): scan with the phone camera instead of a barcode scanner - hold each barcode in the frame and it is added by itself; keep going parcel after parcel, then **✕ Close**. Works on **https://portal.example.com** only (allow the camera when the phone asks).",
+     "A number is refused with a red message and a low double beep when it is already on this manifest, already on another manifest, or not of the chosen courier.",
+     "**Typing Off** (default): only the barcode scanner can enter numbers - typing by hand or pasting is refused. Turn **Typing On** to type a number whose barcode cannot be read.",
+     "**Delete On** shows ✕ on every number to take it off. Turn it Off again so nothing is removed by mistake.",
+     "Finished? Press **🔒 Finish & lock** (Allow Edit off) - no more scanning or taking off. **🔓 Allow Edit** opens it again.",
+     "**🖨 Print**: the hand-over list with the total and signature boxes for Company and the courier."
+    ]
+   },
+   {
+    "h": "Find, view and settings",
+    "for": "wh",
+    "steps": [
+     "**▦ Carrier Manifest List**: every manifest with its date, courier, channel, number of parcels and status (Scanning / Locked / Cancelled). Click a box at the top to show only that status.",
+     "**Find a tracking number**: type all or part of a number and press **Find** - the manifests that have it are shown.",
+     "**Courier & Channel Setting** (Settings › Program Settings › Warehouse Dept, or **⚙ Couriers & channels** on the list): add / remove courier companies and channels. For each courier you may give the start of its tracking numbers, e.g. DHL Ecommerce – 7027, 7028; without a start every number is accepted. Press **💾 Save**.",
+     "**Cancel** a manifest that was made by mistake - its tracking numbers can then be scanned on another manifest.",
+     "**🗑 Delete** (Super Admin only): removes a manifest and its scanned numbers for good - type the manifest number to confirm. Use **Cancel** instead to keep it for record.",
+     "Every manifest is also in the Google Sheet tab **Online Shop Delivery** (one row per parcel)."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bi",
+  "for": "all",
+  "icon": "📊",
+  "title": "BI Dashboard – Collection",
+  "intro": "Management › BI Dashboard › Collection – today's money collected, updating live (demo: sample data).",
+  "parts": [
+   {
+    "h": "Reading the dashboard",
+    "steps": [
+     "The four boxes show **Collected today**, **Receipts today**, **Average receipt** (each with ▲ / ▼ vs yesterday at the same time) and **Month to date** against the target.",
+     "**Today by hour** draws the running total through the day; the dashed line is yesterday.",
+     "**By payment method** and **By outlet** split today's total; **Latest receipts** lists the newest first and flashes a new one.",
+     "Choose an **Outlet** to see only that outlet. **Pause** stops the live updates.",
+     "In a real install the figures come from the ERP database through a read-only login and refresh every 30–60 seconds."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "admin",
+  "icon": "⚙",
+  "title": "Administration (Admin / Super Admin)",
+  "for": "admin",
+  "intro": "Settings (bottom of the side menu).",
+  "parts": [
+   {
+    "h": "Users and access",
+    "steps": [
+     "**Users**: add accounts, set the account type, reset passwords; the **Signature** column holds each person's signature (draw or upload).",
+     "**Access Control**: give rights per person, or use **Positions** (a set of rights for many people). Positions are grouped by Department; changing a position only gives / takes the rights you changed.",
+     "**Structure**: open a position and choose **Reports to** (e.g. Cashier reports to Branch Manager). The Positions list then shows the structure as a tree (🌳 Structure); 🏛 By department groups them by department instead. Positions with nobody above and nobody below are listed under \"Not in the structure yet\"."
+    ]
+   },
+   {
+    "h": "HR Setting",
+    "steps": [
+     "**Position list** with the **Department** of each position (\"+ Add new department...\" in the dropdown).",
+     "**Department list**, **Outlet list** (Outlet Code, Name, **State**, working hours) and the MC Request lead time.",
+     "**⬇ Export all / 📥 Import all** moves all HR Setting to another server in one Excel file."
+    ]
+   }
+  ]
+ }
+]
