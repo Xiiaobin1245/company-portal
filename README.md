@@ -6,6 +6,30 @@ It runs as **one Python file with no third-party packages** and a SQLite databas
 
 > This repository is a demo build. Company name and logos are placeholders, and the BI dashboard runs on generated sample data.
 
+## Screenshots
+
+**BI Dashboard – Collection** (updates live: KPIs vs yesterday, hourly chart, payment methods, outlets, latest receipts)
+
+![BI Collection dashboard](docs/screenshots/02-bi-collection.png)
+
+**Warehouse – carrier manifest scanning** (scanner or phone camera, duplicate and wrong-courier checks)
+
+![Carrier manifest scanning](docs/screenshots/03-carrier-manifest-scan.png)
+
+| Carrier manifest list | Built-in User Manual |
+|---|---|
+| ![Carrier manifest list](docs/screenshots/04-carrier-manifest-list.png) | ![User Manual](docs/screenshots/05-user-manual.png) |
+| **3 languages – 中文** | **Sign-in** |
+| ![BI dashboard in Chinese](docs/screenshots/06-bi-collection-chinese.png) | ![Sign-in page](docs/screenshots/01-sign-in.png) |
+
+**On the phone** (installable as an app)
+
+<p>
+  <img src="docs/screenshots/07-phone-bi-collection.png" alt="BI dashboard on a phone" width="260">
+  &nbsp;&nbsp;
+  <img src="docs/screenshots/08-phone-carrier-manifest.png" alt="Carrier manifest on a phone" width="260">
+</p>
+
 ## Modules
 
 | Department | Program | What it does |

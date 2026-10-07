@@ -3222,7 +3222,7 @@ class Handler(BaseHTTPRequestHandler):
         with DB() as c:
             name_in = (b.get("username") or "").strip()
             u = c.execute("SELECT * FROM users WHERE username=?", (name_in,)).fetchone() or \
-                c.execute("SELECT * FROM users WHERE username=? COLLATE NOCASE", (name_in,)).fetchone()   # LKH002 = lkh002
+                c.execute("SELECT * FROM users WHERE username=? COLLATE NOCASE", (name_in,)).fetchone()   # ABC002 = abc002
             ok = u is not None and check_pw(b.get("password") or "", u["pw_hash"])
             if not ok:
                 record_fail(ip)
@@ -6395,7 +6395,7 @@ class Handler(BaseHTTPRequestHandler):
                     raise HTTPError(400, "There must be at least one active Super Admin.")
             email = clean_email(b["email"]) if "email" in b else (u["email"] or "")
             new_un = str(b.get("username") or u["username"]).strip()
-            if new_un != u["username"]:                              # e.g. lkh002 -> LKH002 (same as the Staff Code)
+            if new_un != u["username"]:                              # e.g. abc002 -> ABC002 (same as the Staff Code)
                 validate_username(new_un)
                 if c.execute("SELECT 1 FROM users WHERE username=? COLLATE NOCASE AND id<>?", (new_un, uid)).fetchone():
                     raise HTTPError(409, f"Another login already uses the username {new_un}.")
